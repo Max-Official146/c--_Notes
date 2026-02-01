@@ -1,0 +1,101 @@
+<!--Here First we use previous code that is in styling_buttons.html-->
+
+<!--Hover: Changing properties of button or class when cursor goes into it-->
+
+<style> 
+  .Subscribe-button {
+    background-color: rgb(200, 3, 3);
+    color: white;
+    border: none;
+    height: 32px;
+    width: 105px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+  } 
+  .Subscribe-button:hover {
+    opacity: 0.8;
+  }
+  .Subscribe-button:active {
+    opacity: 0.6;
+  }
+
+  .JOIN-button {
+    background-color: white;
+    color: blue;
+    border-color: rgba(42, 21, 199, 0.9);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    height: 32px;
+    width: 105px;
+    cursor: pointer;
+    transition: background-color 1s,
+      color 1s;
+  }
+  .JOIN-button:hover {
+    background-color: rgba(42, 21, 199, 0.9);
+    color: white;
+  }
+  .JOIN-button:active {
+    opacity: 0.7;
+  }
+
+  .Tweet-button {
+    background-color: rgb(2, 2, 145);
+    color: white;
+    height: 32px;
+    width: 105px;
+    cursor: pointer;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+  }
+  .Tweet-button {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+</style>
+
+<!--
+For havour Syntax:
+.button_class_name:hover {
+  properties of havour
+}
+  If we don't hover overing it then use simple if using over just type :hover in it
+-->
+
+<!--:hover: It is known as pseudo-class-->
+<!--Another Example of pseudo-class:
+:active: It change proper when click
+-->
+<!--CSS property:
+opacity: It shows how see through the html element are
+        It is used to fade out the element
+        if we using opacity 1 it don;t fade when we decrese the value it fading 
+        And It's value from 0 to 1
+-->
+
+<!--How to do transition smoothly:
+1. use transition property in button css not button:active or button:hover
+    Ex: transition: opacity 1s; Here 1s means 1second
+-->
+<!--Note: Only use transition in button_name not in hover or active-->
+
+<!--Shadow:
+Another CSS property
+using like box-shadow: it conatin 4 values
+  Ex box-shadow: 0 0 0 black
+  Here 1st 0 represent horizontal right 
+        2nd 0 represent vertical down
+        3rd 0 represent blur
+        4 th one color of shadow
+  -->
+
+<!-- Here in rgba 'a' represent opacity-->
+<button class="Subscribe-button">Subscribe</button>
+<button class="JOIN-button">JOIN</button>
+<button class="Tweet-button">Tweet</button>
