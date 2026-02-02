@@ -1,0 +1,16 @@
+It allows the add space b/w the elemts and space b/w inside of a box
+use margin-right to adjust the next element distance to them
+
+for inside of element: Note:: First don't use width & height in your button
+                              use padding iit is space inside of the button
+                              like padding-right, padding-left, padding-up, padding-bottom
+
+paddng is best alternative of width height 
+
+Default behaviour of web briwser align text as 
+
+Align by using vertical-align: top to alliung everything at top
+
+Remove extra text by using paddings 
+
+same border to other by using padding

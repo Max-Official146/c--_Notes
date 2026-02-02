@@ -1,0 +1,11 @@
+In Elements section you see the all code with all buttons and their stuff
+
+When you click on any button you see therir css property at styles corner
+
+'pointer tab at left': It is an another feature that you don't need to sellect manually button by finding in code use this is tool by hovering on the button and it auto select the button from the code
+
+Background color is measure here as hex like example background-color: #1d9bf0; Here first two character represent how much color of red next two one green next two blue
+
+use hex to rgb calculator to geeting rgb correctly
+
+'Computer tab': Shows the final style of the web page
