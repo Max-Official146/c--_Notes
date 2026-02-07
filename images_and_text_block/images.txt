@@ -1,5 +1,5 @@
 Syntax:
-<img class="hi" src="video_file_name">
+<img class="hi" src="image_file_name">
 
 CSS Properties
 
