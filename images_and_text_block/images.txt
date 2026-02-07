@@ -1,0 +1,16 @@
+Syntax:
+<img class="hi" src="video_file_name">
+
+CSS Properties
+
+1. width: It determines the size of image
+2. height: Not use frequently, it actually shrink the
+   image
+3. object-fit: it is used to fit the image in width and height
+   that we typed above
+   -contain: it fit the image in ration
+   -cover: it covers the ratio but not fit proprly
+4. object-positon: it fit the position of picture right or left or accorsing to the user
+5. border-width: use to set the width of a area
+6. border-style: style the border
+7. border-color: use to color the border

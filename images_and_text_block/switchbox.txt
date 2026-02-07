@@ -1,0 +1,8 @@
+Syntax:
+<input type="text" placeholder="Search">
+
+1. type means what is the type of input you put 
+2. placeholder means the word is permanenet place until we typing in it
+
+CSS Properties
+1. same as buttons
