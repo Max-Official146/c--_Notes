@@ -1,0 +1,44 @@
+p {
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .video-title {
+    font-size: larger;
+    font-weight: bold;
+    width: 300px;
+    line-height: 24px;
+  }
+  .video-views {
+    color: rgb(128, 128, 128);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+  }
+  .channel-name {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .video-context {
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 100px;
+  }
+  .shop {
+    color: white;
+    text-align: center;
+    background-color: red;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .link {
+    cursor: pointer;
+  }
+  .link:hover {
+    text-decoration: underline;
+  }
