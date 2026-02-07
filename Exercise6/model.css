@@ -1,0 +1,17 @@
+p {
+  font-family: Montserrat;
+}
+.title {
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+}
+.heading {
+  font-size: medium;
+  text-align: center;
+  font-weight: 700;
+  color: gray;
+}
+.heading_linking {
+  text-decoration: underline;
+}
