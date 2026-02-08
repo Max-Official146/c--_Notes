@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        padding: 20px;
+      }
+      
+      .tweet-container {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      
+      .cat {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        flex-shrink: 0;
+      }
+      
+      .message {
+        flex: 1;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 40px;
+        font-size: 16px;
+        outline: none;
+      }
+      
+      .message:focus {
+        border-color: #1da1f2;
+      }
+      
+      .tweet {
+        color: white;
+        background-color: #1da1f2;
+        border-radius: 30px;
+        border: none;
+        padding: 15px 30px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+      .tweet:hover {
+        background-color: #1a8cd8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tweet-container">
+      <img class="cat" src="meme.jpeg" alt="Profile">
+      <input class="message" type="text" placeholder="What's happening?">
+      <button class="tweet">Tweet</button>
+    </div>
+  </body>
+</html>
