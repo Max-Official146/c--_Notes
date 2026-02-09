@@ -1,0 +1,16 @@
+In html 3 types of element
+1. block element:- takes entire line(example is a paragraph)
+2. inline-block element:- only takes up as mucj space as needed
+                    Ex: Image element and input element 
+3. inline element:- just text element
+                <strong></strong> element in a paragraph
+
+CSS property
+1. display to switch elements
+
+Note: .class1,
+      .class2 {
+        display: inline-block;
+      }
+
+Note: inline-block => block {from inline-block to block}
