@@ -9,3 +9,5 @@
 
       it remove the problem of position to each elements
       respectively only set one position to the container
+
+Note:- CSS property: verticle-align: ; is used to align content vertically
