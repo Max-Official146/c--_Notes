@@ -1,3 +1,0 @@
-nested layout techniques:
-  1. vertical layout 
-  2. horizontal layout
